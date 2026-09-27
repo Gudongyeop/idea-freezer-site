@@ -1,0 +1,13 @@
+:root{--paper:#F1E1F3;--paperLight:#FBF5FC;--ink:#2B2530;--inkSoft:#6A5C70;--marker:#F6B8CB;--accent:#A8316A}
+@media (prefers-color-scheme:dark){:root{--paper:#211A25;--paperLight:#2C2331;--ink:#EADCF0;--inkSoft:#B9A6C0;--marker:#6B2C4A;--accent:#F29BBB}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Gowun Dodum","Apple SD Gothic Neo","Noto Sans KR",sans-serif;line-height:1.7;padding-inline:20px;padding-block:40px 64px}
+main{max-width:640px;margin:0 auto}
+h1{font-family:"Nanum Pen Script",cursive;font-weight:400;font-size:52px;line-height:1.1;margin:0 0 4px}
+h2{font-family:"Gaegu",sans-serif;font-size:22px;margin:32px 0 6px}
+p,li{margin:0 0 8px}
+.meta{color:var(--inkSoft);font-size:14px}
+.mk{background:linear-gradient(transparent 55%,var(--marker) 55% 92%,transparent 92%)}
+a{color:var(--accent)}
+nav{display:flex;gap:16px;margin-bottom:28px;font-size:15px}
+.card{background:var(--paperLight);border:1.5px solid var(--ink);border-radius:9px 6px 11px 7px;padding:16px 20px;box-shadow:3px 3px 0 -1px var(--paper),3px 3px 0 0 var(--inkSoft)}
